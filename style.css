@@ -6,10 +6,18 @@ header {
     background-color: burlywood;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Poppins', sans-serif;
+   
+    
+   
 }
 
+
+
+
 .logo {
-    margin: 5px;
+    height: 35px;
+    margin: 20px;
+    
 
 }
 
@@ -51,14 +59,21 @@ p {
 .container {
     margin: 70px 45px;
     align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 
 }
 
 .pic {
     display: flex;
-    max-height: 300px;
-    margin: 80px;
-
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 80px;
+    height: 300px;
+    
 
 }
 
@@ -70,5 +85,48 @@ button {
     color: white;
     border-radius: 50% 20% / 10% 40%;
     
+}
+strong {
+    font-weight: bold;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+h3{
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    justify-content: center;
+
+}
+
+.fiction {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
 }
 
